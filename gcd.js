@@ -1,3 +1,12 @@
+```
+Euclidean Algorithm for Greatest Common Divisor (GCD)
+
+The GCD of two or more integers is the largest integer 
+that divides each of the integers such that their remainder is zero.
+ 
+Eg :252,105 => 21
+```;
+
 //gratest common divisor
 
 function gcd(a, b) {
@@ -19,3 +28,5 @@ function gcdr(a, b) {
     return gcdr(b, a % b);
   }
 }
+
+//eg gcd(252,105)
